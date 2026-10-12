@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function Hero({ isLoading, MaskText  }) {
     return (
-        <section id="home" className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden pt-20">
+        <section id="home" className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden md:pt-20 pt-10">
             <div className="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,0.04)_1px,transparent_1px)] dark:bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_80%_at_50%_50%,#000_20%,transparent_100%)] pointer-events-none" />
 
             <div className="relative z-10 flex flex-col items-center w-full px-4 text-center">
