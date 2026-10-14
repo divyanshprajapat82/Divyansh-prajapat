@@ -8,21 +8,6 @@ import { CheckCircle2, Download } from 'lucide-react';
 export default function Resume({ MaskText }) {
     const [resumeDownloaded, setResumeDownloaded] = useState(false);
 
-    // const handleDownloadResume = () => {
-    //     setResumeDownloaded(true);
-    //     setTimeout(() => setResumeDownloaded(false), 3000);
-    //     const resumeText = `/Divyansh-Prajapat-Resume.pdf`;
-    //     const blob = new Blob([resumeText], { type: 'pdf' });
-    //     const url = URL.createObjectURL(blob);
-    //     const a = document.createElement('a');
-    //     a.href = url;
-    //     a.download = 'Divyansh_Prajapat_Resume.pdf';
-    //     document.body.appendChild(a);
-    //     a.click();
-    //     document.body.removeChild(a);
-    //     URL.revokeObjectURL(url);
-    // };
-
     const handleDownloadResume = () => {
         setResumeDownloaded(true);
         setTimeout(() => setResumeDownloaded(false), 3000);
